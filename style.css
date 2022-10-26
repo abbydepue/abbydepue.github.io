@@ -1,0 +1,154 @@
+*{
+	font-family: Georgia, Verdana, sans-serif;
+	color: black;
+	text-align: center;
+}
+
+body {
+	width: 960px;
+	margin: 0 auto;
+	background-color: floralwhite;
+}
+
+h1 {
+	font-family: cursive, "lucida handwriting", georgia;
+	text-shadow: 2px 2px 8px #483d8b;
+	font-size: 50px;
+}
+
+nav {
+	background-color: lavender;
+	padding: 10px;
+	margin: 10px;
+}
+
+a:hover {
+  color: red;
+}
+
+li {
+	display: inline;
+	padding: 40px;
+}
+
+section {
+		overflow:  auto;
+		height: 100%;
+}
+
+main {
+	background-color: lavender;
+	padding: 10px;
+	margin: 10px;
+	border: groove;
+	border-width: medium;
+	border-color: #483d8b;
+}
+
+.left {
+	float: left;
+	padding-bottom: 12px;
+	padding-top: 0px;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+p.vertbig {
+	padding: 50px 0;
+	line-height: 1.8;
+}
+
+.ingredients {
+		background-color: lavender;
+	padding: 10px;
+	margin: 20px 160px;
+	width: 640px;
+	color:#483d8b; 
+	font-family: Georgia; 
+	font-size: 16px; 
+	font-weight: 400;
+	text-align: left;
+	border: groove;
+	border-width: medium;
+	border-color: #483d8b
+}
+
+
+article {
+	background-color: lavender;
+	padding: 60px 65px 60px 45px;
+	margin: 40px;
+	width: 280px;
+	float: left;
+	color:#483d8b; 
+	font-family: Georgia; arial; "Trebuchet MS";
+	font-size: 20px; 
+	font-weight: 600;
+}
+
+.recipes {
+		background-color: lavender;
+	padding: 30px;
+	margin: 40px;
+	width: 300px;
+	float: left;
+	font-size: 18px;
+}
+
+.cakepops {
+		background-color: lavender;
+	padding: 20px;
+	margin: 40px;
+	width: 200px;
+	float: left;
+}
+
+.pics {
+		background-color: lavender;
+	padding: 40px 40px 40px 10px;
+	margin: 0px;
+	width: 900px;
+	float: left;
+}
+
+.scotcheroopics {
+	background-color: lavender;
+	padding: 30px;
+	margin: 0px;
+	width: 880px;
+	float: left;
+}
+
+.directions {
+		background-color: lavender;
+	padding: 30px;
+	margin: 20px;
+	width: 900px;
+}
+
+footer {
+	background-color: lavender;
+	padding: 3px;
+	margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
